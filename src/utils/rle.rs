@@ -19,7 +19,6 @@ pub fn rle_encode(input: &[u8]) -> Vec<u8> {
         }
     }
 
-    // último run
     output.push(count);
     output.push(current);
 
