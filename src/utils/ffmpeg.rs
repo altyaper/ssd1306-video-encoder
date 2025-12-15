@@ -13,3 +13,4 @@ pub fn extract_frames(
         .status()
         .expect("FFmpeg failed");
 }
+
