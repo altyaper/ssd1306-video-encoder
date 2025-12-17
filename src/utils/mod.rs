@@ -1,4 +1,4 @@
-pub mod frame_writer;
 pub mod ffmpeg;
-pub mod rle;
+pub mod frame_writer;
 pub mod image_processing;
+pub mod rle;

@@ -33,6 +33,8 @@ pub fn process_and_write_frames(frames_dir: &Path) {
 
     // Process each frame
     for (i, entry) in entries.iter().enumerate() {
+        // Get the file path of the current frame
+        // Example: frames/frame_0001.png
         let path = entry.path();
 
         // 1. Convert PNG to binary
