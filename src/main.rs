@@ -24,6 +24,9 @@ fn main() {
     let frames_dir = Path::new("frames");
     std::fs::create_dir_all(frames_dir).expect("Failed to create frames directory");
 
+    let output_dir = Path::new("output");
+    std::fs::create_dir_all(output_dir).expect("Failed to create frames directory");
+
     // extract frames from video, save PNG images in frames/ directory
     extract_frames("assets/video.mp4", "frames");
 
